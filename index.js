@@ -8,6 +8,12 @@ function distanceFromHqInBlocks(block){
   }
 }
 
+ function distanceTravelledInFeet(block) {
+   const blocks = distanceFromHqInBlocks(block);
+   const feet = blocks * 264;
+   return feet
+ }
+
 function distanceTravelledInFeet(start, destination) {
   return distanceTravelledInFeet(destination) - distanceTravelledInFeet(start);
 }
