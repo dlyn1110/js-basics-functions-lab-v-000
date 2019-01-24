@@ -7,3 +7,7 @@ function distanceFromHqInBlocks(block){
     return 42 - block;
   }
 }
+
+function distanceTravelledInFeet(start, destination) {
+  return distanceTravelledInFeet(destination) - distanceTravelledInFeet(start);
+}
