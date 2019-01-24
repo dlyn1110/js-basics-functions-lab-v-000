@@ -11,7 +11,7 @@ function distanceFromHqInBlocks(block){
  function distanceTravelledInFeet(block) {
    const blocks = distanceFromHqInBlocks(block);
    const feet = blocks * 264;
-   return feet
+   return feet;
  }
 
 function distanceTravelledInFeet(start, destination) {
